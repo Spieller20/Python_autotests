@@ -23,9 +23,9 @@
 
 1. Автотесты написаны с применением PyTest
 2. Используется библиотека Requests
-3. Параметризированные тесты с использованием декоратора
 
-![image](https://raw.githubusercontent.com/German-D/Python-Pytest-Requests/main/static/pytest-api.png)
+![image](https://raw.githubusercontent.com/Spieller20/Python_autotests/refs/heads/main/pytest1.png)
+![image](https://raw.githubusercontent.com/Spieller20/Python_autotests/refs/heads/main/pytest2.png)
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
@@ -63,4 +63,4 @@ pytest tests/test_pokemon.py
 
 ## Автор
 
-Герман Дольников ([@dolnikov](https://t.me/dolnikov))
+Иван Белов ([@IvanQA2025](https://t.me/IvanQA2025))
