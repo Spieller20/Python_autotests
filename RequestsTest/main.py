@@ -1,7 +1,7 @@
 import requests
 
 URL = 'https://api.pokemonbattle.ru/v2'
-TOKEN = 'f577cdcbd21d0c278dfeae27bf005ca0'
+TOKEN = '{{YOUR_POKEMONBATTLE_TOKEN}}'
 HEADER = {'Content-Type' : 'application/json', 'trainer_token' : TOKEN}
 create_pokemmon = {
     "name": "generate",
@@ -27,4 +27,5 @@ add_pokeball = {
 }
 
 response_add_pokeball = requests.post (url = f'{URL}/trainers/add_pokeball', headers = HEADER,  json = add_pokeball)
+
 print(response_add_pokeball.text)
